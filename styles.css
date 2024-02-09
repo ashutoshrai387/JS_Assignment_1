@@ -1,0 +1,105 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+/* Styling for the form */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #424242;
+}
+
+/* Styling for spacing between buttons and input/output fields*/
+.spacing {
+    margin: 0 0 30px;
+}
+
+/* Styling for putting input fields in one line*/
+.align {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    font-size: large;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Styling for input elements */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="number"],
+select,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+    background-color: #cecece;
+}
+
+/* Styling for operator field */
+.operator {
+    margin: 0 10px;
+}
+
+/* Styling for button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for buttons */
+button {
+    width: 48%;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+/* Styling for calculate button */
+#calculateButton {
+    background-color: #37c6ff;
+}
+
+#calculateButton:hover {
+    background-color: #00abf0;
+}
+
+/* Styling for clear button */
+#clearButton {
+    background-color: #ee0000;
+}
+
+#clearButton:hover {
+    background-color: #cf0000;
+}
+
+/* Styling for result and expression inputs */
+#result,
+#expression {
+    color: #000;
+    background-color: #808080;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

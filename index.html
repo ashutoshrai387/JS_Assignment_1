@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Calculator form -->
+    <form id="calculatorForm">
+        <!-- Input fields for numbers and operator -->
+        <div class="input-group spacing">
+            <div class="align"><label for="num1">Number 1:</label><br>
+                <input type="number" id="num1" required>
+            </div>
+            <div class="align operator"><label for="operator">Operator</label>
+                <select id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="align"><label for="num2">Number 2:</label>
+                <input type="number" id="num2" required>
+            </div>
+        </div>
+
+        <!-- Display for expression -->
+        <div class="spacing">
+            <label for="expression">Expression:</label>
+            <input type="text" id="expression" disabled>
+        </div>
+
+        <!-- Buttons for calculation and clearing -->
+        <div class="button-container spacing">
+            <button type="button" id="calculateButton">Answer</button>
+            <button type="button" id="clearButton">Clear</button>
+        </div>
+
+        <!-- Display for result -->
+        <label for="result">Result:</label>
+        <input type="text" id="result" disabled>
+    </form>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
